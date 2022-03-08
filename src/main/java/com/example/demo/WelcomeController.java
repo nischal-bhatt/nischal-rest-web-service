@@ -10,6 +10,6 @@ public class WelcomeController {
 	@RequestMapping(method=RequestMethod.GET, path="/welcomeNish")
 	public String welcomeMessage()
 	{
-		return "nischal says hello";
+		return "nischal says hello world! ! ! ! ! ! ";
 	}
 }
